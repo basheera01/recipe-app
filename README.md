@@ -47,3 +47,16 @@ Commit your changes.
 Push to the feature branch.
 Submit a pull request.
 
+## Notes
+
+- **Deployment Notes**: 
+  - Make sure the `gh-pages` branch is correctly set up in the repository.
+  - The `npm run deploy` command will push the `build` directory to the `gh-pages` branch for live deployment.
+
+- **Known Issues**:
+  - Deployment might take some time to reflect on GitHub Pages.
+  - If the `ENOENT` error occurs, check that the deploy directory exists and is correctly configured.
+
+- **Additional Info**: 
+  - This project uses React for the frontend and GitHub Pages for hosting.
+
