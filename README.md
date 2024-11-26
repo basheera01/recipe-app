@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+### Recipe Finder
+**Description**
+Recipe Finder is a React-based application that allows users to search for recipes based on ingredients. It fetches recipe data using a public API ( TheMealDB API) and displays the results with recipe details such as ingredients, images, and links to full recipes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Features**
+Search for recipes by entering ingredients.
+View recipe details such as the name, image, source, and ingredients.
+Responsive design for mobile and desktop devices.
+**Technologies Used**
+React.js
+GitHub Pages/ Vercel (for deployment)
+**Setup Instructions**
+1. Clone the repository
 
-## Available Scripts
+git clone https://github.com/<username>/<repository-name>.git
+cd <repository-name>
 
-In the project directory, you can run:
+2. Install dependencies
+Install the required dependencies using npm:
 
-### `npm start`
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Run the app locally
+Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm start
+Visit http://localhost:3000 in your browser to view the app.
 
-### `npm test`
+4. Build the app for production
+To create a production-ready build:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm run build
+This will generate a build folder that contains the optimized static files.
 
-### `npm run build`
+5. Deploy the app
+If you are using GitHub Pages, run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run deploy
+For Netlify or Vercel, follow their respective deployment guides and connect your GitHub repository for automatic deployment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### API Used
+TheMealDB API - used to fetch recipe data.
+### Contribution
+Fork the repository.
+Create a feature branch.
+Commit your changes.
+Push to the feature branch.
+Submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
