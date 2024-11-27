@@ -135,7 +135,7 @@
     h1 {
         font-size: 40px; /* Reduce font size for mobile */
         margin-bottom: 20px; /* Adjust spacing below the heading */
-        margin-top: 100px; /* Adds space above the heading to move it lower */
+        padding: 100px; /* Adds space above the heading to move it lower */
     }
 
     .recipe-list input {
