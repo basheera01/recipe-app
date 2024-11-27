@@ -118,5 +118,35 @@
     background-color: #2b0f29; /* Even darker on click */
     transform: scale(0.98); /* Slight shrink effect */
   }
+@media only screen and (max-width: 768px) {
+    .recipe-list {
+        text-align: center;
+        background-image: url('./../high-angle-view-food-table_1048944-13380181.avif');
+        background-repeat: no-repeat;
+        background-position: center; /* Align image to the top */
+        background-size: contain; /* Ensure the full image is visible */
+        min-height: 100vh; /* Full viewport height */
+        padding: 20px; /* Space around the content */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    h1 {
+        font-size: 40px; /* Reduce font size for mobile */
+        margin-bottom: 20px; /* Adjust spacing below the heading */
+        margin-top: 100px; /* Adds space above the heading to move it lower */
+    }
+
+    .recipe-list input {
+        width: 90%; /* Input field spans almost the full width */
+        height: 40px; /* Adjust height for mobile */
+        padding: 5px; /* Add padding */
+    }
+
+    button {
+        font-size: 14px; /* Smaller button font */
+        padding: 8px 16px; /* Adjust padding for mobile */
+    }
+}
       
